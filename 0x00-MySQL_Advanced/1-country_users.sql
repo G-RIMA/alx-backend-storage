@@ -1,7 +1,6 @@
 -- creates users table with the following requirements
 -- with attributes id, email, name,country
 -- if table exists it shoutl not fail
---can be executed on any database
 
 CREATE TABLE IF NOT EXISTS users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
